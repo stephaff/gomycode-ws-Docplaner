@@ -1,0 +1,75 @@
+body, h1, h2{
+    margin: 0px;
+}
+/*barre de navigation*/
+.navbar{
+    position: sticky;
+    top: 0px;
+    height: 75px;
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+}
+.navbar ul{
+    width : 250px;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+.navbar ul li a{
+    color: grey;
+    text-decoration: none;
+}
+/*banniere*/
+#banniere-titre{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#banniere-titre h1{
+    color: rgb(23, 140, 23);
+    font-size: 35px;
+    font-family: 'Times New Roman';
+}
+.banniere-contenu{
+    padding-left: 150px;
+    padding-right: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.banniere-contenu p{
+    color: grey;
+    font-size: 18px;
+    line-height: 2;
+    width : 475px;
+    margin: 0px;
+}
+.conteneur-carte{
+    padding: 70px 150px 50px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.vert, .bleu, .noir{
+    color: #fff;
+    font-size: 22px;
+    width : 250px;
+    height: 300px;
+    padding: 30px;
+    border-radius: 15px;
+}
+.vert{
+    background-color: #77DD77;
+}
+.bleu{
+    background-color: #77B5FE;
+}
+.noir{
+    background-color: #1a2a3a;
+}
+.lien-carte{
+    color: #fff;
+}
